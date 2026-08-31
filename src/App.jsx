@@ -24,8 +24,19 @@ function App() {
 
       <main className="app">
         <section className="credit-card-section">
-          <div className="card-container">
-            <CreditCard cardData={cardData} theme={theme} />
+          <div className="card-column">
+            <div className="card-container">
+              <CreditCard cardData={cardData} theme={theme} />
+            </div>
+
+            <div className="card-info">
+              <p className="card-info-title">Información de uso</p>
+              <p>
+                Esta tarjeta identifica si pertenece a la línea Visa o Mastercard.
+                Al hacer clic sobre ella, se voltea para mostrar el reverso y el
+                CVV de forma interactiva.
+              </p>
+            </div>
           </div>
 
           <div className="form-container">

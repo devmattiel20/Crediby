@@ -28,17 +28,17 @@ function CardFront({ cardData, theme }) {
         <span className="card-brand">{cardBrand}</span>
       </div>
 
-      <div className="card-number">{cardData.number || "4532 1234 5678 9010"}</div>
+      <div className="card-number">{cardData.number || ""}</div>
 
       <div className="card-bottom">
         <div>
           <span className="card-label">CARDHOLDER</span>
-          <span>{cardData.name || "MATTIEL"}</span>
+          <span>{cardData.name || ""}</span>
         </div>
 
         <div>
           <span className="card-label">VALID THRU</span>
-          <span>{cardData.expiry || "08/29"}</span>
+          <span>{cardData.expiry || ""}</span>
         </div>
       </div>
     </div>

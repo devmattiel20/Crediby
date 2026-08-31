@@ -73,7 +73,7 @@ function CardForm({ cardData, setCardData }) {
         <input
           id="name"
           type="text"
-          placeholder="Mattiel"
+          placeholder="John Doe"
           value={cardData.name}
           onChange={handleNameChange}
           autoComplete="off"
