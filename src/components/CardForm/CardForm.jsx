@@ -61,7 +61,6 @@ function CardForm({ cardData, setCardData }) {
     });
   };
 
-  const expiryIsValid = !cardData.expiry || isValidExpiry(cardData.expiry);
   const cvvIsValid = !cardData.cvv || isValidCVV(cardData.cvv);
 
   return (
@@ -101,7 +100,6 @@ function CardForm({ cardData, setCardData }) {
             placeholder="08/29"
             value={cardData.expiry}
             onChange={handleExpiryChange}
-            className={!expiryIsValid ? "input-invalid" : ""}
             autoComplete="off"
           />
         </div>
