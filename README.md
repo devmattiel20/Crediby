@@ -105,6 +105,14 @@ src/
 
 Crediby funciona como una demostración visual. Los datos introducidos se almacenan únicamente en el estado de la aplicación mientras la página está abierta. No introduzcas datos reales de tarjetas en entornos públicos o de demostración.
 
+## Autor
+
+**Matthew Bettin** - [@devmattiel20](https://github.com/devmattiel20)
+
+## Licencia
+
+Este proyecto es de código abierto y está disponible bajo la licencia MIT.
+
 ## Licencia
 
 Este proyecto no incluye una licencia definida actualmente.
