@@ -112,7 +112,3 @@ Crediby funciona como una demostración visual. Los datos introducidos se almace
 ## Licencia
 
 Este proyecto es de código abierto y está disponible bajo la licencia MIT.
-
-## Licencia
-
-Este proyecto no incluye una licencia definida actualmente.
